@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <title>Document</title>
+</head>
+
+<body class="hbody">
+
+    <!-- preloader -->
+
+    <div class='spinner-wrapper'>
+        <div class="spinner"></div>
+    </div>
+
+    <div class="main-content"></div>
+
+    <script>
+        let spinnerWrapper = document.querySelector('.spinner-wrapper');
+
+        window.addEventListener('load', function () {
+            // spinnerWrapper.style.display = 'none';
+            spinnerWrapper.parentElement.removeChild(spinnerWrapper);
+        });
+    </script>
+
+    <div class="wrapper">
+        <div class="sidebar">
+            <img src="https://i.pinimg.com/564x/d0/84/17/d084175de7c21542d0999b43ce595535.jpg" alt=""
+                class="img-fluid rounded-circle">
+            <h2>Portfolio</h2>
+            <ul>
+                <li><a href="#"><i class="fas fa-home"></i>{127.0.0.1.}</a></li>
+                <li><a href="#about"><i class="fas fa-user"></i>About</a></li>
+                <li><a href="#resume"><i class="fas fa-address-card"></i>Resume</a></li>
+                <li><a href="certify.html"><i class="fas fa-certificate"></i>Certifications</a></li>
+                <li><a href="#projects"><i class="fas fa-umbrella"></i>Projects</a></li>
+                <!-- <li><a href="#"><i class="fas fa-address-book"></i></a></li> -->
+                <li><a href="#contact"><i class="fas fa-address-book"></i>Contact</a></li>
+            </ul>
+            <div class="social_media">
+                <a href="https://www.linkedin.com/in/mrayan10/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/m-rayan10"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/mrayan.10"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+
+
+
+
+        <div class="main_content">
+
+            <div class="hero">
+                <section class="text-gray-600 body-font">
+                    <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+                        <div class="text-center lg:w-2/3 w-full">
+                            <p class="mb-4 leading-relaxed">Welcome to</p>
+                            <h1 class="title-font sm:text-5xl text-3xl mb-4 font-medium text-gray-900">Mohammed Rayan's
+                                Portfolio</h1>
+                            <p class="mb-8 leading-relaxed">I am always open to new opportunities, collaborations, and
+                                discussions. Feel free to reach out to me at <a
+                                    href="mailto:mrayan10@protonmail">mrayan10@protonmail</a> or connect with me on
+                                LinkedIn or GitHub. Let's create something amazing together</p><br><br><br>
+                            <br>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            
+
+
+            <section id="about" class="text-gray-600 body-font">
+                <div class="container px-5 py-24 mx-auto flex flex-col">
+                    <div class="lg:w-4/6 mx-auto">
+                        <div class="rounded-lg h-64 overflow-hidden">
+                            <img alt="content" class="object-cover object-center h-full w-full"
+                                src="https://source.unsplash.com/1200x500/?coding">
+                        </div>
+                        <div class="flex flex-col sm:flex-row mt-10"><br>
+                            <div class="sm:w-1/3 text-center sm:pr-8 sm:py-8">
+
+
+                                <img class="profile" src="imgs/memoji.jpg">
+
+
+                                <div class="flex flex-col items-center text-center justify-center">
+                                    <h2 class="font-medium title-font mt-4 text-gray-900 text-lg">Mohammed Rayan</h2>
+                                    <div class="w-12 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>
+                                    <p class="text-base">"I am a Tech Enthusiast and Creative Problem Solver"</p>
+                                </div>
+                            </div>
+                            <div
+                                class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
+                                <p class="leading-relaxed text-lg mb-4">Hello there! I'm a passionate and versatile
+                                    professional with expertise in full-stack development, UI/UX design, and
+                                    programming. I thrive on challenges and am dedicated to delivering innovative
+                                    solutions. Explore my portfolio to see how I blend technical proficiency with
+                                    creative thinking to bring ideas to life. I am an accomplished professional with a
+                                    proven track record in full-stack development and UI/UX design. My journey in the
+                                    tech world has been marked by a keen eye for detail, a knack for problem-solving,
+                                    and a collaborative spirit that drives me to excel in team environments.</p>
+                                <!-- <a class="text-indigo-500 inline-flex items-center">Learn More
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2"
+                                        viewBox="0 0 24 24">
+                                        <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                    </svg>
+                                </a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="resume">
+                <center>
+                    <h1 style="color: #4b4276; font-size: 30px;">My Resume</h1> <br>
+                    <object data="imgs/myresume.pdf" width="800" height="500">
+                    </object><br>
+                    <button
+                        class="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg"><a
+                            href="imgs/myresume.pdf" download></a>Download Resume</button><br>
+                    <p>Thanks for downloading! If your download doesn't start shortly,
+                        <a id="downloadLink" href="imgs/myresume.pdf" target="_blank" type="application/octet-stream"
+                            download="imgs/myresume.pdf">click here</a>.
+                    </p>
+                </center>
+            </section>
+
+
+            <div class="projects">
+                <section id="projects" class="text-gray-600 body-font">
+                    <div class="container px-5 py-24 mx-auto">
+                        <div class="flex flex-col">
+                            <div class="h-1 bg-gray-200 rounded overflow-hidden">
+                                <div class="w-24 h-full bg-purple-500"></div>
+                            </div>
+                            <div class="flex flex-wrap sm:flex-row flex-col py-6 mb-12">
+                                <h1 class="sm:w-2/5 text-gray-900 font-medium title-font text-2xl mb-2 sm:mb-0">My
+                                    Projects</h1>
+                                <p class="sm:w-3/5 leading-relaxed text-base sm:pl-10 pl-0">Here lies a glimpse into the
+                                    innovative world of my projects. Yet, for a more extensive expedition into my
+                                    diverse skill set and accomplishments, <span class="blue"><i><a
+                                                href="https://github.com/m-rayan10">click here</a></i></span> and open
+                                    the gateway to my
+                                    complete github repository.</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
+                            <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+                                <div class="rounded-lg h-64 overflow-hidden">
+                                    <img alt="content" class="object-cover object-center h-full w-full"
+                                        src="imgs/project1.png">
+                                </div>
+                                <h2 class="text-xl font-medium title-font text-gray-900 mt-5">The Diocese Connect</h2>
+                                <p class="text-base leading-relaxed mt-2">Diocese Connect seamlessly integrates all
+                                    parishes with the diocese, facilitating effortless communication with institutions.
+                                    This user-friendly system streamlines functions such as Placement, Blood Donation,
+                                    Advertisement, and Baptism Extract.</p>
+                                <a class="text-indigo-500 inline-flex items-center mt-3"
+                                    href="https://www.shimogadiocese.org/">Learn More
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2"
+                                        viewBox="0 0 24 24">
+                                        <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+                                <div class="rounded-lg h-64 overflow-hidden">
+                                    <img alt="content" class="object-cover object-center h-200 w-full"
+                                        src="imgs/project2.png">
+                                </div>
+                                <h2 class="text-xl font-medium title-font text-gray-900 mt-5">My Portfolio</h2>
+                                <p class="text-base leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway
+                                    tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical
+                                    XOXO lumbersexual.</p>
+                                <a class="text-indigo-500 inline-flex items-center mt-3" href="home.html">Learn More
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2"
+                                        viewBox="0 0 24 24">
+                                        <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+                                <div class="rounded-lg h-64 overflow-hidden">
+                                    <img alt="content" class="object-cover object-center h-full w-full"
+                                        src="imgs/projectre3.png"">
+                          </div>
+                          <h2 class=" text-xl font-medium title-font text-gray-900 mt-5">The Digital Clock</h2>
+                                    <p class="text-base leading-relaxed mt-2">I created a dynamic digital clock using
+                                        JavaScript, highlighting my expertise in web development and UI design. This
+                                        project showcases my ability to deliver functional and visually engaging
+                                        solutions.</p>
+                                    <a class="text-indigo-500 inline-flex items-center mt-3"
+                                        href="https://github.com/m-rayan10/DigitalClock-ray-JS/">Learn More
+                                        <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2"
+                                            viewBox="0 0 24 24">
+                                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                </section>
+            </div>
+
+
+            <!-- Contact page -->
+            <section id="contact" class="text-gray-600 body-font relative">
+                <div class="container px-5 py-24 mx-auto" style="background-color: #fff;">
+                    <form action="https://formspree.io/f/xvodzqqe" method="POST">
+                        <div class="flex flex-col text-center w-full mb-12">
+                            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Contact Me</h1>
+                            <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Feel Free to contact for any
+                                business/collab.</p>
+                        </div>
+                        <div class="lg:w-1/2 md:w-2/3 mx-auto">
+                            <div class="flex flex-wrap -m-2">
+                                <div class="p-2 w-1/2">
+                                    <div class="relative">
+                                        <label for="name" class="leading-7 text-sm text-gray-600">Name</label>
+                                        <input type="text" id="name" name="name"
+                                            class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                                    </div>
+                                </div>
+                                <div class="p-2 w-1/2">
+                                    <div class="relative">
+                                        <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+                                        <input type="email" id="email" name="email"
+                                            class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                                    </div>
+                                </div>
+                                <div class="p-2 w-full">
+                                    <div class="relative">
+                                        <label for="message" class="leading-7 text-sm text-gray-600">Message</label>
+                                        <textarea id="message" name="message"
+                                            class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+                                    </div>
+                                </div>
+                                <div class="p-2 w-full">
+                                    <button
+                                        class="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Submit</button>
+                                </div>
+                                <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
+                                    <a href="mailto:mohammed.rayan@christuniversity.in"
+                                        class="text-indigo-500">mohammed.rayan@christuniversity.in</a>
+                                    <p class="leading-normal my-5">christuniversity
+                                        <br>Lavasa, Pune MH-411212
+                                    </p>
+                                    <!-- <span class="inline-flex">
+                                  <a class="text-gray-500">
+                                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                                      <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                    </svg>
+                                  </a>
+                                  <a class="ml-4 text-gray-500">
+                                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                                      <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                                    </svg>
+                                  </a>
+                                  <a class="ml-4 text-gray-500">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                                      <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                                      <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                                    </svg>
+                                  </a>
+                                  <a class="ml-4 text-gray-500">
+                                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                                      <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                                    </svg>
+                                  </a>
+                                </span> -->
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+
+
+            <footer class="text-gray-600 body-font">
+                <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+                  <!-- <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+                      <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                    </svg>
+                    <span class="ml-3 text-xl">MY Portfolio</span>
+                  </a> -->
+                  <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2023 Mohammed Rayan —
+                    <a href="https://twitter.com/knyttneve" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@mrayan10</a>
+                  </p>
+                  <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+                    <a class="text-gray-500">
+                      <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                      </svg>
+                    </a>
+                    <a class="ml-3 text-gray-500">
+                      <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                        <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                      </svg>
+                    </a>
+                    <a class="ml-3 text-gray-500">
+                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                        <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                      </svg>
+                    </a>
+                    <a class="ml-3 text-gray-500">
+                      <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                        <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                        <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                      </svg>
+                    </a>
+                  </span>
+                </div>
+              </footer>
+
+
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
