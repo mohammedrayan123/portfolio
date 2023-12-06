@@ -109,7 +109,7 @@ nav a:hover {
     color: black;
 }
 
-footer {
+.gfooter {
     /* text-align: left; */
     padding: 15px;
     background-color: #e8e8e8;
@@ -122,12 +122,12 @@ footer {
     width:100%;
   }
 
-footer .left{
+.gfooter .left{
     font-family: Arial, Helvetica, sans-serif;
     margin: 10px;
 }
 
-footer .right{
+.gfooter .right{
     font-family: Arial, Helvetica, sans-serif;
     float: right;
 }
